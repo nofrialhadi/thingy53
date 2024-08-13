@@ -1,0 +1,9 @@
+sample:
+  name: BME680 and BH1749 Sensor
+tests:
+  sample.sensor.bme680:
+    harness: sensor
+    tags: samples sensor
+    integration_platforms:
+      - thingy53_nrf5340
+    platform_allow: thingy53_nrf5340 nrf52840dk_nrf52840 adafruit_feather_nrf52840

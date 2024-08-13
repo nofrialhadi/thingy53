@@ -1,0 +1,115 @@
+#
+# Copyright (c) 2020 Nordic Semiconductor ASA
+#
+# SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
+#
+
+menu "Zephyr Kernel"
+source "Kconfig.zephyr"
+endmenu
+
+module = SONSORS_SERVER
+module-str = sensor_server
+source "${ZEPHYR_BASE}/subsys/logging/Kconfig.template.log_config"
+
+config SONSORS_SERVER_LOW_POWER
+	bool "Enable low power mode for the CLI sample"
+
+# BME688 temperature, humidity pressure and gas configuration options
+config BME688
+	bool "BME688 sensor"
+	depends on I2C
+	help
+	  Enable driver for BME688 I2C based temperature, pressure, humidity and gas sensor.
+
+menuconfig BME688_SERVER
+	bool "BME688 server"
+	default n
+	depends on CPLUSPLUS
+	depends on EXCEPTIONS
+	help
+	  Enable a thread to collect bme688 gas samples.
+
+menuconfig BME688_BSEC2
+	bool "BME688 BSEC2 Library"
+	default n
+	depends on CPLUSPLUS
+	depends on EXCEPTIONS
+	help
+	  Enable Bosch-BSEC2-Library support
+
+menuconfig BH1749
+	bool "BH1749 Sensor"
+	depends on I2C
+	help
+	  Enable driver for BH1749 sensors.
+
+if BH1749
+
+config BH1749_TRIGGER
+	bool "Trigger for BH1749"
+	depends on GPIO
+
+config BH1749_READY_WAIT_TIME_MSEC
+	int "Time to wait for sensor to be ready"
+	default 10
+	help
+	  BH1749 requires certain configurations to happen with a delay, so that it may take some
+	  time before the sensor is ready to be used.
+	  This option configurues a wait time in milliseconds that the driver will wait for the sensor
+	  to be ready in cases where it is still initializing.
+
+endif # BH1749
+
+menuconfig BH1749_ADAPTIVE
+	bool "Adaptive BH1749 Sensor"
+	depends on I2C
+	help
+	  Enable driver for Adaptive BH1749 sensors.
+
+#App
+menuconfig APP_BATTERY
+	bool "Application battery sensor API"
+	default n
+	depends on GPIO
+	depends on PWM
+	depends on ADC
+	help
+	  Enable Application battery sensor API.
+
+menuconfig APP_LED
+	bool "Application LED API"
+	default n
+	depends on PWM
+	help
+	  Enable Application RGB LED API for state, color, blink.
+
+menuconfig APP_OT
+	bool "Application Open Thread Management"
+	default n
+	depends on NET_L2_OPENTHREAD
+	help
+	  Enable Application Open Thread API for printing joiner info, button reset and factory reset.
+
+menuconfig JSON_ENDPOINT
+	bool "JSON udp API endpoint"
+	default n
+	depends on CPLUSPLUS
+	depends on EXCEPTIONS
+	help
+	  Enable handler for receiving JSON and sending response back.
+
+menuconfig UDP_BROADCAST
+	bool "UDP send in braodcast config"
+	default n
+	depends on NET_SOCKETS
+	help
+	  Enable Application to broadcast UDP packets
+
+
+menuconfig APP_FLASH
+	bool "Application read write flash"
+	default n
+	depends on FLASH
+	help
+	  Enable Application read write flash.

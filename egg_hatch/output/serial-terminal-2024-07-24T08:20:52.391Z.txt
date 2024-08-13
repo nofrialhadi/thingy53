@@ -1,0 +1,48 @@
+*** Booting nRF Connect SDK 3758bcbfa5cd ***
+Reading Environmental Data
+Sensor device 0x30408 name is bh1749@38
+Sensor device 0x303cc name is bme688@76
+bme688 set to Forced Mode
+{"temperature":0.00,"pressure":0.00,"humidity":0.00,"gas_resistance":0.00,"red":81,"green":158,"blue":73,"ir":78}
+{"temperature":24.08,"pressure":101415.70,"humidity":73.19,"gas_resistance":6615.67,"red":64,"green":130,"blue":60,"ir":48}
+{"temperature":24.10,"pressure":101417.16,"humidity":73.23,"gas_resistance":6094.08,"red":67,"green":142,"blue":67,"ir":54}
+{"temperature":24.13,"pressure":101416.71,"humidity":73.13,"gas_resistance":6853.72,"red":68,"green":142,"blue":68,"ir":54}
+{"temperature":24.15,"pressure":101414.13,"humidity":73.04,"gas_resistance":7699.71,"red":67,"green":141,"blue":68,"ir":53}
+{"temperature":24.15,"pressure":101422.89,"humidity":72.90,"gas_resistance":8497.08,"red":70,"green":146,"blue":69,"ir":57}
+{"temperature":24.16,"pressure":101424.60,"humidity":72.84,"gas_resistance":9192.76,"red":68,"green":144,"blue":69,"ir":55}
+{"temperature":24.15,"pressure":101417.33,"humidity":72.69,"gas_resistance":9800.92,"red":66,"green":137,"blue":65,"ir":51}
+{"temperature":24.16,"pressure":101421.81,"humidity":72.80,"gas_resistance":10372.77,"red":71,"green":147,"blue":70,"ir":59}
+{"temperature":24.15,"pressure":101416.91,"humidity":72.73,"gas_resistance":10891.76,"red":74,"green":151,"blue":72,"ir":64}
+{"temperature":24.15,"pressure":101419.70,"humidity":72.79,"gas_resistance":11404.13,"red":77,"green":156,"blue":74,"ir":70}
+{"temperature":24.16,"pressure":101420.96,"humidity":72.88,"gas_resistance":12132.70,"red":85,"green":166,"blue":78,"ir":82}
+{"temperature":24.14,"pressure":101423.13,"humidity":72.89,"gas_resistance":12531.82,"red":92,"green":175,"blue":82,"ir":94}
+{"temperature":24.15,"pressure":101413.28,"humidity":72.96,"gas_resistance":12817.95,"red":81,"green":161,"blue":76,"ir":75}
+{"temperature":24.17,"pressure":101419.88,"humidity":72.94,"gas_resistance":13101.33,"red":65,"green":133,"blue":63,"ir":49}
+{"temperature":24.18,"pressure":101424.79,"humidity":72.94,"gas_resistance":13405.95,"red":80,"green":150,"blue":68,"ir":74}
+{"temperature":24.19,"pressure":101431.62,"humidity":72.93,"gas_resistance":13654.79,"red":155,"green":252,"blue":110,"ir":210}
+{"temperature":24.17,"pressure":101422.23,"humidity":72.94,"gas_resistance":13858.81,"red":147,"green":248,"blue":111,"ir":191}
+{"temperature":24.15,"pressure":101417.33,"humidity":72.86,"gas_resistance":14143.65,"red":140,"green":241,"blue":108,"ir":179}
+{"temperature":24.14,"pressure":101429.10,"humidity":72.80,"gas_resistance":14333.71,"red":143,"green":243,"blue":109,"ir":180}
+{"temperature":24.15,"pressure":101420.11,"humidity":73.14,"gas_resistance":14538.85,"red":155,"green":259,"blue":114,"ir":206}
+{"temperature":24.16,"pressure":101424.60,"humidity":73.05,"gas_resistance":14618.55,"red":114,"green":199,"blue":89,"ir":139}
+{"temperature":24.12,"pressure":101421.00,"humidity":72.50,"gas_resistance":14780.60,"red":126,"green":216,"blue":97,"ir":157}
+{"temperature":24.14,"pressure":101421.19,"humidity":72.96,"gas_resistance":14904.52,"red":110,"green":200,"blue":92,"ir":126}
+{"temperature":24.19,"pressure":101431.62,"humidity":73.27,"gas_resistance":15041.13,"red":80,"green":161,"blue":76,"ir":70}
+{"temperature":24.21,"pressure":101429.90,"humidity":73.29,"gas_resistance":15169.47,"red":93,"green":179,"blue":84,"ir":96}
+{"temperature":24.23,"pressure":101426.90,"humidity":73.44,"gas_resistance":15223.60,"red":158,"green":256,"blue":112,"ir":224}
+{"temperature":24.25,"pressure":101427.51,"humidity":73.10,"gas_resistance":15355.09,"red":131,"green":223,"blue":100,"ir":169}
+{"temperature":24.24,"pressure":101429.87,"humidity":73.05,"gas_resistance":15477.63,"red":154,"green":250,"blue":111,"ir":216}
+{"temperature":24.25,"pressure":101433.50,"humidity":72.98,"gas_resistance":15522.68,"red":131,"green":218,"blue":97,"ir":167}
+{"temperature":24.25,"pressure":101424.72,"humidity":72.86,"gas_resistance":15613.56,"red":109,"green":199,"blue":92,"ir":125}
+{"temperature":24.24,"pressure":101431.37,"humidity":72.69,"gas_resistance":15682.43,"red":127,"green":218,"blue":98,"ir":155}
+{"temperature":24.23,"pressure":101430.94,"humidity":72.58,"gas_resistance":15810.28,"red":177,"green":275,"blue":118,"ir":261}
+{"temperature":24.24,"pressure":101426.66,"humidity":72.58,"gas_resistance":15892.72,"red":151,"green":245,"blue":108,"ir":210}
+{"temperature":24.24,"pressure":101425.81,"humidity":72.54,"gas_resistance":15964.08,"red":183,"green":283,"blue":122,"ir":272}
+{"temperature":24.21,"pressure":101438.23,"humidity":72.54,"gas_resistance":16012.01,"red":161,"green":259,"blue":114,"ir":226}
+{"temperature":24.22,"pressure":101437.16,"humidity":72.62,"gas_resistance":16133.10,"red":130,"green":222,"blue":101,"ir":164}
+{"temperature":24.24,"pressure":101427.09,"humidity":72.48,"gas_resistance":16194.33,"red":145,"green":237,"blue":105,"ir":194}
+{"temperature":24.23,"pressure":101432.88,"humidity":72.36,"gas_resistance":16206.63,"red":122,"green":211,"blue":96,"ir":151}
+{"temperature":24.19,"pressure":101429.27,"humidity":72.11,"gas_resistance":16293.28,"red":125,"green":213,"blue":96,"ir":156}
+{"temperature":24.21,"pressure":101429.46,"humidity":72.14,"gas_resistance":16456.67,"red":127,"green":215,"blue":97,"ir":166}
+{"temperature":24.24,"pressure":101434.56,"humidity":72.18,"gas_resistance":16456.67,"red":159,"green":252,"blue":110,"ir":231}
+{"temperature":24.24,"pressure":101431.37,"humidity":72.13,"gas_resistance":16558.86,"red":164,"green":257,"blue":111,"ir":235}

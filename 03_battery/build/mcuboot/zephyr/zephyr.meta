@@ -1,0 +1,217 @@
+modules:
+- name: nrf
+  path: /opt/nordic/ncs/v2.6.1/nrf
+  revision: eef645c4a31201df353fdff5447262d7675fa1c1
+- name: mcuboot
+  path: /opt/nordic/ncs/v2.6.1/bootloader/mcuboot
+  revision: 3c2f2ff12bc20625cd65730b6036d061de4da5f7
+- name: mbedtls
+  path: /opt/nordic/ncs/v2.6.1/modules/crypto/mbedtls
+  revision: 9beb52e67835a17368616b27700270b3eb99e4ca
+- name: trusted-firmware-m
+  path: /opt/nordic/ncs/v2.6.1/modules/tee/tf-m/trusted-firmware-m
+  revision: 2a2e1ce5e80fa3893a7747728003552bf6cfef55
+- name: psa-arch-tests
+  path: /opt/nordic/ncs/v2.6.1/modules/tee/tf-m/psa-arch-tests
+  revision: 94a349db22cd0e44136c281724ffc71b6e7391c3
+- name: cjson
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/cjson
+  revision: c6af068b7f05207b28d68880740e4b9ec1e4b50a
+- name: azure-sdk-for-c
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/azure-sdk-for-c
+  revision: 308c171cb4b5eed266649012a68406487ec81fb2
+- name: cirrus-logic
+  path: /opt/nordic/ncs/v2.6.1/modules/hal/cirrus-logic
+  revision: 3873a08377d93a479105a75ac390d3bbcd31d690
+- name: openthread
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/openthread
+  revision: b9dcdbca4edd348e924d7579a2bada48bf085645
+- name: memfault-firmware-sdk
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/memfault-firmware-sdk
+  revision: 3d51c80bc58933671403eca7c5250a9b03294c5e
+- name: canopennode
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/canopennode
+  revision: dec12fa3f0d790cafa8414a4c2930ea71ab72ffd
+- name: chre
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/chre
+  revision: 3b32c76efee705af146124fb4190f71be5a4e36e
+- name: lz4
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/lz4
+  revision: 8e303c264fc21c2116dc612658003a22e933124d
+- name: nanopb
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/nanopb
+  revision: 42fa8b211e946b90b9d968523fce7b1cfe27617e
+- name: tf-m-tests
+  path: /opt/nordic/ncs/v2.6.1/modules/tee/tf-m/tf-m-tests
+  revision: 08a3158f0623a4205608a52d880b17ae394e31d2
+- name: zscilib
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/zscilib
+  revision: 34a94b0995683822fa3626dcd5d838301c94c350
+- name: cmsis
+  path: /opt/nordic/ncs/v2.6.1/modules/hal/cmsis
+  revision: 4b96cbb174678dcd3ca86e11e1f24bc5f8726da0
+- name: cmsis-dsp
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/cmsis-dsp
+  revision: ff7b5fd1ea5f094665c090c343ec44e74dc0b193
+- name: cmsis-nn
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/cmsis-nn
+  revision: 0c8669d81381ccf3b1a01d699f3b68b50134a99f
+- name: fatfs
+  path: /opt/nordic/ncs/v2.6.1/modules/fs/fatfs
+  revision: 427159bf95ea49b7680facffaa29ad506b42709b
+- name: hal_nordic
+  path: /opt/nordic/ncs/v2.6.1/modules/hal/nordic
+  revision: 5470822384781624efb2fda28cbc6a895a227677
+- name: st
+  path: /opt/nordic/ncs/v2.6.1/modules/hal/st
+  revision: fb8e79d1a261fd02aadff7c142729f1954163cf3
+- name: hal_wurthelektronik
+  path: /opt/nordic/ncs/v2.6.1/modules/hal/wurthelektronik
+  revision: 24ca9873c3d608fad1fea0431836bc8f144c132e
+- name: libmetal
+  path: /opt/nordic/ncs/v2.6.1/modules/hal/libmetal
+  revision: 03140d7f4bd9ba474ebfbb6256e84a9089248e67
+- name: liblc3
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/liblc3
+  revision: 448f3de31f49a838988a162ef1e23a89ddf2d2ed
+- name: littlefs
+  path: /opt/nordic/ncs/v2.6.1/modules/fs/littlefs
+  revision: ca583fd297ceb48bced3c2548600dc615d67af24
+- name: loramac-node
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/loramac-node
+  revision: 842413c5fb98707eb5f26e619e8e792453877897
+- name: lvgl
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/gui/lvgl
+  revision: 7c61a4cec26402d20c845c95dcad0e39dcd319f8
+- name: mipi-sys-t
+  path: /opt/nordic/ncs/v2.6.1/modules/debug/mipi-sys-t
+  revision: a819419603a2dfcb47f7f39092e1bc112e45d1ef
+- name: nrf_hw_models
+  path: /opt/nordic/ncs/v2.6.1/modules/bsim_hw_models/nrf_hw_models
+  revision: 52d0b4b7b7431d8da6222cc3b17a8afdcb099baf
+- name: open-amp
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/open-amp
+  revision: 214f9fc1539f8e5937c0474cb6ee29b6dcb2d4b8
+- name: picolibc
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/picolibc
+  revision: 1a5c603b9f8e228f9459bdafedad15ea28efc700
+- name: segger
+  path: /opt/nordic/ncs/v2.6.1/modules/debug/segger
+  revision: 9d0191285956cef43daf411edc2f1a7788346def
+- name: tinycrypt
+  path: /opt/nordic/ncs/v2.6.1/modules/crypto/tinycrypt
+  revision: 3e9a49d2672ec01435ffbf0d788db6d95ef28de0
+- name: uoscore-uedhoc
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/uoscore-uedhoc
+  revision: 150f4eb2955eaf36ac0f9519d4f4f58d5ade5740
+- name: zcbor
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/zcbor
+  revision: d3093b5684f62268c7f27f8a5079f166772619de
+- name: nrfxlib
+  path: /opt/nordic/ncs/v2.6.1/nrfxlib
+  revision: 9adb63b61a67ab0df6cd516870cae7b604f01af1
+- name: connectedhomeip
+  path: /opt/nordic/ncs/v2.6.1/modules/lib/matter
+  revision: ca3672fbb939180da8e43e6994e01c89fa9dcd02
+west:
+  manifest: /opt/nordic/ncs/v2.6.1/nrf/west.yml
+  projects:
+  - path: /opt/nordic/ncs/v2.6.1/nrf
+    revision: eef645c4a31201df353fdff5447262d7675fa1c1
+  - path: /opt/nordic/ncs/v2.6.1/zephyr
+    revision: 3758bcbfa5cd749d977e2600b6687104b8948243-dirty-off
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/hostap
+    revision: e080aa8d0c7706ec5ab74785b3c8accc4973cd86
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/wfa-qt-control-app
+    revision: d649bd1342215e089d4211757186705cda179013
+  - path: /opt/nordic/ncs/v2.6.1/bootloader/mcuboot
+    revision: 3c2f2ff12bc20625cd65730b6036d061de4da5f7
+  - path: /opt/nordic/ncs/v2.6.1/modules/tee/tf-m/qcbor
+    revision: 751d36583a9ce1a640900c57e13c9b6b8f3a2ba2
+  - path: /opt/nordic/ncs/v2.6.1/modules/crypto/mbedtls
+    revision: 9beb52e67835a17368616b27700270b3eb99e4ca
+  - path: /opt/nordic/ncs/v2.6.1/nrfxlib
+    revision: 9adb63b61a67ab0df6cd516870cae7b604f01af1
+  - path: /opt/nordic/ncs/v2.6.1/modules/tee/tf-m/trusted-firmware-m
+    revision: 2a2e1ce5e80fa3893a7747728003552bf6cfef55
+  - path: /opt/nordic/ncs/v2.6.1/modules/tee/tf-m/psa-arch-tests
+    revision: 94a349db22cd0e44136c281724ffc71b6e7391c3
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/matter
+    revision: ca3672fbb939180da8e43e6994e01c89fa9dcd02
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/cjson
+    revision: c6af068b7f05207b28d68880740e4b9ec1e4b50a
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/azure-sdk-for-c
+    revision: 308c171cb4b5eed266649012a68406487ec81fb2
+  - path: /opt/nordic/ncs/v2.6.1/modules/hal/cirrus-logic
+    revision: 3873a08377d93a479105a75ac390d3bbcd31d690
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/openthread
+    revision: b9dcdbca4edd348e924d7579a2bada48bf085645
+  - path: /opt/nordic/ncs/v2.6.1/test/cmock
+    revision: f65066f15d8248e6dcb778efb8739904a4512087
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/memfault-firmware-sdk
+    revision: 3d51c80bc58933671403eca7c5250a9b03294c5e
+  - path: /opt/nordic/ncs/v2.6.1/tools/bsim
+    revision: 384a091445c57b44ac8cbd18ebd245b47c71db94
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/canopennode
+    revision: dec12fa3f0d790cafa8414a4c2930ea71ab72ffd
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/chre
+    revision: 3b32c76efee705af146124fb4190f71be5a4e36e
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/lz4
+    revision: 8e303c264fc21c2116dc612658003a22e933124d
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/nanopb
+    revision: 42fa8b211e946b90b9d968523fce7b1cfe27617e
+  - path: /opt/nordic/ncs/v2.6.1/modules/tee/tf-m/tf-m-tests
+    revision: 08a3158f0623a4205608a52d880b17ae394e31d2
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/zscilib
+    revision: 34a94b0995683822fa3626dcd5d838301c94c350
+  - path: /opt/nordic/ncs/v2.6.1/modules/hal/cmsis
+    revision: 4b96cbb174678dcd3ca86e11e1f24bc5f8726da0
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/cmsis-dsp
+    revision: ff7b5fd1ea5f094665c090c343ec44e74dc0b193
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/cmsis-nn
+    revision: 0c8669d81381ccf3b1a01d699f3b68b50134a99f
+  - path: /opt/nordic/ncs/v2.6.1/tools/edtt
+    revision: 64e5105ad82390164fb73fc654be3f73a608209a
+  - path: /opt/nordic/ncs/v2.6.1/modules/fs/fatfs
+    revision: 427159bf95ea49b7680facffaa29ad506b42709b
+  - path: /opt/nordic/ncs/v2.6.1/modules/hal/nordic
+    revision: 5470822384781624efb2fda28cbc6a895a227677
+  - path: /opt/nordic/ncs/v2.6.1/modules/hal/st
+    revision: fb8e79d1a261fd02aadff7c142729f1954163cf3
+  - path: /opt/nordic/ncs/v2.6.1/modules/hal/wurthelektronik
+    revision: 24ca9873c3d608fad1fea0431836bc8f144c132e
+  - path: /opt/nordic/ncs/v2.6.1/modules/hal/libmetal
+    revision: 03140d7f4bd9ba474ebfbb6256e84a9089248e67
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/liblc3
+    revision: 448f3de31f49a838988a162ef1e23a89ddf2d2ed
+  - path: /opt/nordic/ncs/v2.6.1/modules/fs/littlefs
+    revision: ca583fd297ceb48bced3c2548600dc615d67af24
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/loramac-node
+    revision: 842413c5fb98707eb5f26e619e8e792453877897
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/gui/lvgl
+    revision: 7c61a4cec26402d20c845c95dcad0e39dcd319f8
+  - path: /opt/nordic/ncs/v2.6.1/modules/debug/mipi-sys-t
+    revision: a819419603a2dfcb47f7f39092e1bc112e45d1ef
+  - path: /opt/nordic/ncs/v2.6.1/tools/net-tools
+    revision: d68ee9d17648a1bb3729c2023abfcb735dfe92fa
+  - path: /opt/nordic/ncs/v2.6.1/modules/bsim_hw_models/nrf_hw_models
+    revision: 52d0b4b7b7431d8da6222cc3b17a8afdcb099baf
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/open-amp
+    revision: 214f9fc1539f8e5937c0474cb6ee29b6dcb2d4b8
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/picolibc
+    revision: 1a5c603b9f8e228f9459bdafedad15ea28efc700
+  - path: /opt/nordic/ncs/v2.6.1/modules/debug/segger
+    revision: 9d0191285956cef43daf411edc2f1a7788346def
+  - path: /opt/nordic/ncs/v2.6.1/modules/crypto/tinycrypt
+    revision: 3e9a49d2672ec01435ffbf0d788db6d95ef28de0
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/uoscore-uedhoc
+    revision: 150f4eb2955eaf36ac0f9519d4f4f58d5ade5740
+  - path: /opt/nordic/ncs/v2.6.1/modules/lib/zcbor
+    revision: d3093b5684f62268c7f27f8a5079f166772619de
+workspace:
+  dirty: true
+  extra: false
+  'off': true
+zephyr:
+  path: null
+  revision: null

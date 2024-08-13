@@ -1,0 +1,15 @@
+
+Name
+Bootloader Thingy:53
+
+ID
+31B6A2B463113B9A
+
+PCA
+Unknown
+
+Node1
+EID: fda1:925e:12ca:5807:720b:1c3:d5a:d87
+
+Node2
+EID: 

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/CMakeFiles/empty_net_core_subimage"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/CMakeFiles/empty_net_core_subimage.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/CMakeFiles/empty_net_core_subimage-complete.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-build.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-configure.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-download.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-install.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-mkdir.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-patch.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"empty_net_core_subimage"
+		],
+		"name" : "empty_net_core_subimage"
+	}
+}

@@ -1,0 +1,13 @@
+# Target labels
+ empty_net_core_subimage
+# Source files and their labels
+/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/CMakeFiles/empty_net_core_subimage
+/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/CMakeFiles/empty_net_core_subimage.rule
+/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/CMakeFiles/empty_net_core_subimage-complete.rule
+/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-build.rule
+/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-configure.rule
+/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-download.rule
+/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-install.rule
+/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-mkdir.rule
+/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-patch.rule
+/Users/nofrialhadi/nordic/thingy53/apps/03_battery/build/modules/nrf/samples/empty_net_core_subimage-prefix/src/empty_net_core_subimage-stamp/empty_net_core_subimage-update.rule

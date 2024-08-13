@@ -1,0 +1,19 @@
+#
+# Copyright (c) 2020 Nordic Semiconductor ASA
+#
+# SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
+#
+
+source "Kconfig.zephyr"
+
+menuconfig USB
+    bool "USB"
+    help
+      Enable USB drivers.
+
+menuconfig USB_DEVICE_STACK
+    bool "USB Device Support"
+    select USB_DEVICE_DRIVER
+    select HWINFO
+    help
+      Enable USB device stack.
