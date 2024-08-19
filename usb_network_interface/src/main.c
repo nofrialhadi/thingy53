@@ -13,18 +13,15 @@
  */
 
 #include <sample_usbd.h>
-
 #include <stdio.h>
 #include <string.h>
 #include <zephyr/device.h>
 #include <zephyr/drivers/uart.h>
 #include <zephyr/kernel.h>
 #include <zephyr/sys/ring_buffer.h>
-
 #include <zephyr/usb/usb_device.h>
 #include <zephyr/usb/usbd.h>
 #include <zephyr/logging/log.h>
-
 #include <zephyr/net/net_if.h>
 #include <zephyr/net/ethernet.h>
 #include <zephyr/usb/usb_device.h>

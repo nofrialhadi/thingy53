@@ -83,15 +83,15 @@ static int dyn_handler(struct http_client_ctx *client,
 
     if (status == HTTP_SERVER_DATA_FINAL) {
         LOG_DBG("All data received.");
-    //    if (encode_sensor_data_to_json(json_buffer, sizeof(json_buffer)) < 0) {
-    //        ret = snprintf((char *)buffer, sizeof(json_buffer), "{\"error\":\"JSON encoding failed\"}");
-    //        // Send HTTP response with an error message
-    //        http_server_send_response(client, 500, "application/json", (uint8_t *)buffer, ret);
-    //        return -1;
-    //    }
+        if (encode_sensor_data_to_json(json_buffer, sizeof(json_buffer)) < 0) {
+            ret = snprintf((char *)buffer, sizeof(json_buffer), "{\"error\":\"JSON encoding failed\"}");
+            // Send HTTP response with an error message
+            http_server_send_response(client, 500, "application/json", (uint8_t *)buffer, ret);
+            return -1;
+        }
 
-    //    // Send HTTP response with sensor data
-    //    http_server_send_response(client, 200, "application/json", (uint8_t *)json_buffer, strlen(json_buffer));
+        // Send HTTP response with sensor data
+        http_server_send_response(client, 200, "application/json", (uint8_t *)json_buffer, strlen(json_buffer));
     }
 
     return len;
@@ -116,7 +116,7 @@ HTTP_RESOURCE_DEFINE(dyn_resource, sensor_service, "/sensor_data",
 
 void main(void) {
     int ret;
-/*
+
     // Initialize USB
     ret = usb_enable(NULL);
     if (ret != 0) {
@@ -143,7 +143,7 @@ void main(void) {
         LOG_ERR("Failed to start HTTP server: %d", ret);
         return;
     }
-*/
+
     LOG_INF("HTTP server started successfully");
 
     // Main loop

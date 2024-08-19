@@ -1,5 +1,7 @@
 {
     "nrf-connect.applications": [
-        "${workspaceFolder}/bme688_bh1749"
-    ]
+        "${workspaceFolder}/bme688_bh1749",
+        "${workspaceFolder}/usb_network_interface"
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
 }
