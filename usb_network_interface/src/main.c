@@ -12,7 +12,6 @@
  * to the serial port.
  */
 
-#include <sample_usbd.h>
 #include <stdio.h>
 #include <string.h>
 #include <zephyr/device.h>
@@ -26,6 +25,10 @@
 #include <zephyr/net/ethernet.h>
 #include <zephyr/usb/usb_device.h>
 #include <zephyr/usb/class/usb_cdc.h>
+
+//#ifndef CONFIG_USB_DEVICE_STACK_NEXT
+	//#include <sample_usbd.h>	// related --> usbd_next_prj.conf(CONFIG_USB_DEVICE_STACK_NEXT=y)
+//#endif
 
 LOG_MODULE_REGISTER(cdc_acm_echo, LOG_LEVEL_INF);
 
@@ -240,7 +243,7 @@ int main(void)
     struct net_if *iface = net_if_get_default();
     if (!iface) {
         LOG_WRN("Failed to get default network interface");
-        return;
+        return 0;
     }
 
     //Set the network interface up

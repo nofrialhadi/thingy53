@@ -74,7 +74,7 @@ static int dyn_handler(struct http_client_ctx *client,
                        size_t len, void *user_data)
 {
     char json_buffer[SENSOR_BUFFER_SIZE];
-    //int ret;
+    int ret;
 
     if (status == HTTP_SERVER_DATA_ABORTED) {
         LOG_DBG("Transaction aborted");

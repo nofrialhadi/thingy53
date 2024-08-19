@@ -1,0 +1,5 @@
+*** Booting nRF Connect SDK v3.5.99-ncs1-1 ***
+[00:00:00.000,915] <inf> cdc_acm_echo: Wait for DTR
+[00:00:05.004,333] <inf> cdc_acm_echo: DTR set
+[00:00:05.119,842] <inf> cdc_acm_echo: Baudrate 115200
+[00:00:05.120,025] <wrn> cdc_acm_echo: Failed to get default network interface

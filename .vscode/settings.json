@@ -1,7 +1,11 @@
 {
     "nrf-connect.applications": [
-        "${workspaceFolder}/bme688_bh1749",
-        "${workspaceFolder}/usb_network_interface"
+        "${workspaceFolder}/usb_http_server"
     ],
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "sample_usbd.h": "c",
+        "server.h": "c",
+        "client.h": "c"
+    }
 }

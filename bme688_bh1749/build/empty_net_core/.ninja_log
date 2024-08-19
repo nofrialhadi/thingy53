@@ -596,3 +596,15 @@
 29313	29490	1723589522520854044	/Users/nofrialhadi/nordic/thingy53/bme688_bh1749/build/empty_net_core/zephyr/signed_by_b0_app.bin	afbc47ce8e0a46fc
 29490	29727	1723589522758862462	zephyr/merged_CPUNET.hex	deb7d4d19e3f65ad
 29490	29727	1723589522758862462	/Users/nofrialhadi/nordic/thingy53/bme688_bh1749/build/empty_net_core/zephyr/merged_CPUNET.hex	deb7d4d19e3f65ad
+14	94	1723589494470133160	modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-build	3ef9c74eec81d58d
+14	94	1723589494470133160	b0n/zephyr/zephyr.hex	3ef9c74eec81d58d
+14	94	1723589494470133160	b0n/zephyr/zephyr.elf	3ef9c74eec81d58d
+14	94	1723589494470133160	/Users/nofrialhadi/nordic/thingy53/bme688_bh1749/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-build	3ef9c74eec81d58d
+14	94	1723589494470133160	/Users/nofrialhadi/nordic/thingy53/bme688_bh1749/build/empty_net_core/b0n/zephyr/zephyr.hex	3ef9c74eec81d58d
+14	94	1723589494470133160	/Users/nofrialhadi/nordic/thingy53/bme688_bh1749/build/empty_net_core/b0n/zephyr/zephyr.elf	3ef9c74eec81d58d
+13	101	1723589494470133160	modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-build	3ef9c74eec81d58d
+13	101	1723589494470133160	b0n/zephyr/zephyr.hex	3ef9c74eec81d58d
+13	101	1723589494470133160	b0n/zephyr/zephyr.elf	3ef9c74eec81d58d
+13	101	1723589494470133160	/Users/nofrialhadi/nordic/thingy53/bme688_bh1749/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-build	3ef9c74eec81d58d
+13	101	1723589494470133160	/Users/nofrialhadi/nordic/thingy53/bme688_bh1749/build/empty_net_core/b0n/zephyr/zephyr.hex	3ef9c74eec81d58d
+13	101	1723589494470133160	/Users/nofrialhadi/nordic/thingy53/bme688_bh1749/build/empty_net_core/b0n/zephyr/zephyr.elf	3ef9c74eec81d58d

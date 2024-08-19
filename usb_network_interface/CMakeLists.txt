@@ -2,8 +2,8 @@
 
 cmake_minimum_required(VERSION 3.20.0)
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
-project(cdc_acm)
+project(usb_network_interface)
 
-include(${ZEPHYR_BASE}/samples/subsys/usb/common/common.cmake)
+#include(${ZEPHYR_BASE}/samples/subsys/usb/common/common.cmake)      # related --> usbd_next_prj.conf(CONFIG_USB_DEVICE_STACK_NEXT=y)
 FILE(GLOB app_sources src/*.c)
 target_sources(app PRIVATE ${app_sources})

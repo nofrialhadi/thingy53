@@ -1,0 +1,13 @@
+# Target labels
+ b0n_subimage
+# Source files and their labels
+/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/CMakeFiles/b0n_subimage
+/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/CMakeFiles/b0n_subimage.rule
+/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/CMakeFiles/b0n_subimage-complete.rule
+/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-build.rule
+/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-configure.rule
+/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-download.rule
+/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-install.rule
+/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-mkdir.rule
+/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-patch.rule
+/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-update.rule

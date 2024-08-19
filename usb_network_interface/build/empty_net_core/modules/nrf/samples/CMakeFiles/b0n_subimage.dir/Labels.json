@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/CMakeFiles/b0n_subimage"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/CMakeFiles/b0n_subimage.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/CMakeFiles/b0n_subimage-complete.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-build.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-configure.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-download.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-install.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-mkdir.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-patch.rule"
+		},
+		{
+			"file" : "/Users/nofrialhadi/nordic/thingy53/usb_network_interface/build/empty_net_core/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"b0n_subimage"
+		],
+		"name" : "b0n_subimage"
+	}
+}
